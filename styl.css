@@ -1,0 +1,76 @@
+body {
+    background-color: #9FB7B9;
+    text-align: center;
+}
+button {
+   background-color: #46B1C9;
+   border: none;
+   color: white;
+   padding: 10px 26px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   border-radius: 12px;
+   border: 3px solid #327f91;
+   opacity: 0.6;
+   font-weight: normal;
+}
+button:hover {
+    background-color:#84C0C6 ;
+    opacity: 1;
+    font-weight: bold;
+    cursor: pointer;
+}
+fieldset {
+    border: 3px solid white;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 14%;
+   padding: 5%;
+   background-color:#F2E2D2 
+}
+header {
+    background-color:#BCC1BA ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+a:link{
+color: black;
+text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+}
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BCC1BA;
+    padding: 10px;
+    text-align: center;
+}
+p {
+    font-weight: bold;
+    font-size: 200%;
+}
+h1 {
+    font-size: 300%;
+}
+input[type=button] {
+    cursor: pointer;
+    background-color: #F2E2D2;
+color: rgb(97, 83, 83);
+border: none;
+font-size: large;
+opacity: 0.7;
+}
+input:hover[type=button] {
+    background-color: #f7cea5;
+    opacity: 1;
+}

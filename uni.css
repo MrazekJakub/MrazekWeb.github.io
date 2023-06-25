@@ -1,0 +1,43 @@
+input[type=button] {
+    cursor: pointer;
+    background-color: #F2E2D2;
+color: rgb(97, 83, 83);
+border: none;
+font-size: large;
+opacity: 0.7;
+}
+input:hover[type=button] {
+    background-color: #f7cea5;
+    opacity: 1;
+}
+body {
+    background-color: #9FB7B9;
+    text-align: center;
+}
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BCC1BA;
+    padding: 10px;
+    text-align: center;
+}
+header {
+    background-color:#BCC1BA ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+a {
+    text-decoration: none;
+    color: rgb(73, 58, 58);
+    font-size: large;
+    opacity: 0.7;
+}
+a:hover {
+    opacity: 1;
+    font-weight: bold;
+}
